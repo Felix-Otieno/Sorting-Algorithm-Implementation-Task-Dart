@@ -1,6 +1,7 @@
 
 bubbleSort(List<int> array) { 
-  /* Defined a function called bubbeSort that has parameter called array that is a list of numeric values.
+  /* 
+     Defined a function called bubbeSort that has parameter called array that is a list of numeric values.
      Function will be used to execute the unsorted list to sorted from smallest to largest value in the list and it will use bubble sort.
      Bubble sort is a simple sort algorithm that repeatedly iterates through the list, compare the adjascent elements and swap them if they are in the wrong position.
   */
@@ -15,7 +16,7 @@ bubbleSort(List<int> array) {
 
       // If the cuurent element is greater than the next element swap them
       if (array[j] > array[j + 1]) {
-        
+
         // Swapping using temporary variable
         int temp = array[j]; // Define variable to store the current element
         // Perform the swap
