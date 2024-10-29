@@ -5,14 +5,17 @@ bubbleSort(List<int> array) {
      Bubble sort is a simple sort algorithm that repeatedly iterates through the list, compare the adjascent elements and swap them if they are in the wrong position.
   */
 
+  int lengthOfArray = array.length; // Calculate the length of array.
 
-  int lengthOfArray = array.length; // Defined variable to store the length of array.
   // Outer loop iterates over the aray from first to the last element.
   for (int i = 0; i < lengthOfArray - 1; i++) { 
+
     // Inner loop compare the adjacent elements and swap them if needed. 
     for (int j = 0; j < lengthOfArray - i - 1; j++) {
+
       // If the cuurent element is greater than the next element swap them
       if (array[j] > array[j + 1]) {
+        
         // Swapping using temporary variable
         int temp = array[j]; // Define variable to store the current element
         // Perform the swap
