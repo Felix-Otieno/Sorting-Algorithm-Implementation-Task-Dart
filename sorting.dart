@@ -1,5 +1,11 @@
-// The function bubbleSort takes parameter of type list integer called array and loop through each element in the list and sorts the list using the Bubble Sort algorithm.
+
 bubbleSort(List<int> array) { 
+  /* Defined a function called bubbeSort that has parameter called array that is a list of numeric values.
+     Function will be used to execute the unsorted list to sorted from smallest to largest value in the list and it will use bubble sort.
+     Bubble sort is a simple sort algorithm that repeatedly iterates through the list, compare the adjascent elements and swap them if they are in the wrong position.
+  */
+
+
   int lengthOfArray = array.length; // Defined variable to store the length of array.
   // Outer loop iterates over the aray from first to the last element.
   for (int i = 0; i < lengthOfArray - 1; i++) { 
